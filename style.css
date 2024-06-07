@@ -38,17 +38,12 @@ header {
     margin: 0;
 }
 
-
-
-
 nav ul li a {
     text-align: center;
     display: flex;
     align-items: center;
     box-shadow: 5px 5px 5px;
 }
-
-
 
 section {
     display: flex;
@@ -72,9 +67,6 @@ main {
     gap: 10px;
 }
 
-
-
-
 main aside {
     display: grid;
     flex-direction: column;
@@ -84,15 +76,12 @@ main aside {
     gap: 10px;
 } 
 
-
 section img {
     display: block;
     margin: 20px 0;
     width: 100%;
     border-radius: 10px;
 }
-
-
 
 footer {
     background-color: black;
@@ -123,10 +112,6 @@ footer .imagenes img {
     transition: transform 0.3s;
 }
 
-
-
-
-
 @media (max-width: 600px) {
     main {
         display: flex;
@@ -138,7 +123,6 @@ footer .imagenes img {
         margin: 5px 0;
     }
 }
-
 
 @media (min-width: 601px) and (max-width: 1024px) {
     main {
